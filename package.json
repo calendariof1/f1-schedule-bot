@@ -1,0 +1,23 @@
+{
+  "name": "f1-schedule-bot",
+  "version": "0.0.1",
+  "description": "Schedule bot to follow F1 calendar on Telegram",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha **/*.spec.js"
+  },
+  "keywords": [
+    "F1",
+    "bot"
+  ],
+  "author": "Filipe M. Silva",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^8.4.0",
+    "sinon": "^10.0.0"
+  },
+  "dependencies": {
+    "puppeteer": "^9.1.1"
+  }
+}
